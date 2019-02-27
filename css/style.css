@@ -1,0 +1,79 @@
+
+.main-header {
+    background-image: url("../portfolio-grafiki/img/header.jpg");
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main-header h1 {
+    color: darkblue;
+    font-size: 10vh;
+    align-self: center;
+
+}
+.main-header p {
+    color: black;
+    font-size: 3vh;
+    align-self: center;
+}
+
+.main-header h2 {
+    color: black;
+    font-size: 2vh;
+}
+
+
+.main-nav .nav-menu {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+
+}
+
+.main-nav .nav-menu .nav-menu-item {
+    color: lightgrey;
+}
+
+.main-section {
+    text-align: center;
+    
+}
+
+.main-section img {
+    border-radius : 50%;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+    
+
+.portfolio .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    
+}
+
+.portfolio h3 {
+    align-self: center;
+    justify-content: center;
+}
+
+.portfolio .container img {
+    width: 25%;
+    height: 25%;
+    justify-content: flex-end;
+    justify-content: center;
+    
+
+}
